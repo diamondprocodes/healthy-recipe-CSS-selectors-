@@ -1,0 +1,63 @@
+* {
+    font-family: Helvetica;
+  /*   text-align: center; */
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .container {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  width: 600px;
+  padding: 40px;
+  margin: 0 auto;
+  box-shadow: 2px 2px  rgb(207, 207, 183);
+}
+  
+  img { 
+    height: 250px;
+    border: 2px solid brown;
+    border-radius: 20px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  hr {
+    background-color: brown;
+    padding: 1px;
+    width: 500px;
+  }
+  
+  ul.ingredients, ol {
+    display: table;
+    margin: 0 auto;
+  }
+  #cook-time {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .ingredients li {
+  list-style: square;
+  }
+  .time {
+    font-weight: bold; 
+  }
+  
+  a.external-link {
+    color: gold;
+  }
+  .citation {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 40px;
+    padding: 15px;
+    width: 500px;
+    margin: 0 auto;
+  }
